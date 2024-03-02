@@ -25,7 +25,7 @@ type TuitionInfo = {
   gender: string;
 };
 
-import { ContextProvider } from "../../app/writePost/page";
+import { ContextProvider } from "@/components/writePost/WritePost";
 import { useContext } from "react";
 const TuitionPost = () => {
   const { moreData, changeMoreData } = useContext(ContextProvider);

@@ -17,7 +17,7 @@ type ProductInfo = {
     price:number;
     contact:string
 }
-import { ContextProvider } from "../../app/writePost/page";
+import { ContextProvider } from "@/components/writePost/WritePost";
 import { useContext } from "react";
 const ProductPost = () => {
     const {moreData, changeMoreData} = useContext(ContextProvider);
